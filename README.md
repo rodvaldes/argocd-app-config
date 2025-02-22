@@ -1,8 +1,5 @@
 #### Commands
 
-Del tutorial https://youtu.be/MeU5_k9ssrs.
-
-
 ```bash
 # install ArgoCD in k8s
 kubectl create namespace argocd
@@ -20,7 +17,10 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ```
 </br>
 
-#### Enlaces
+gh repo create argocd-app-config --public
+
+
+#### Links
 
 * Config repo: [https://gitlab.com/nanuchi/argocd-app-config](https://gitlab.com/nanuchi/argocd-app-config)
 
